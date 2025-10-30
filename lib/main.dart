@@ -21,11 +21,11 @@ class MyApp extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               const Text(
-                'ANONYMOUS GROUP',
+                'HACKER GROUP',
                 style: TextStyle(
                     fontSize: 40,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black
+                    color: Colors.white
                 ),
               ),
               const Text(
