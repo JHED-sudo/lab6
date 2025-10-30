@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       title: 'Anonymous Group App',
       home: Scaffold(
         // The background color is set here!
-        backgroundColor: Colors.blueGrey[50],
+        backgroundColor: Colors.grey[50],
         body: Center(
           child: Column(
             // To prevent the column from taking up the full screen height
@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.bold,
-                    color: Colors.pink
+                    color: Colors.red
                 ),
               ),
               const SizedBox(height: 20),
